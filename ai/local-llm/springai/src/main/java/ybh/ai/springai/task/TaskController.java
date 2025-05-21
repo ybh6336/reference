@@ -1,4 +1,4 @@
-package ybh.ai.springai.chat;
+package ybh.ai.springai.task;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
