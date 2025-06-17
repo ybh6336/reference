@@ -1,0 +1,8 @@
+services:
+  prometheus:
+    image: containerregistry-na.jpmchase.net/container-external/prometheus/prometheus:v2.20.0
+    restart: always
+    volumes:
+      - "./prometheus.yml:/etc/prometheus/prometheus.yml"
+    ports:
+      - "9090:9090"
